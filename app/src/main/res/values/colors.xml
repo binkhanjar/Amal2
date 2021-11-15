@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    // color app
+    <color name="colorPrimary">#054679</color>
+    <color name="colorPrimaryDark">#045493</color>
+    <color name="colorAccent">#52b7f8</color>
+    <color name="backgroundFragment">#D5D1D1</color>
+    <color name="text_color_items">#212121</color>
+    <color name="text_items_main">#096BB8</color>
+    <color name="tabIndicatorColor">#9cc8df</color>
+    <color name="developer_color">#039BE5</color>
+    <color name="news_color">#EF2D43</color>
+    <color name="bad_food_color">#e27c6f</color>
+    <color name="good_food_color">#86d098</color>
+    <color name="detection_color">#8E24AA</color>
+    <color name="prevention_color">#f7c59f</color>
+    <color name="background_item_news">#eeeeee</color>
+    <color name="title_news_color">#DA032E</color>
+
+</resources>
+

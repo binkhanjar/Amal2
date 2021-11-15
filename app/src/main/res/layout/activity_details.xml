@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:layout_marginEnd="4dp"
+        tools:context=".TypesOfCancers.Details">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:text="@string/name_cancer"
+            android:textStyle="bold"
+            android:textColor="@color/design_default_color_primary"
+            android:fontFamily="@font/bigvesta_arabic_regular"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:layout_marginTop="8dp"
+            android:text="@string/description"
+            android:textStyle="bold"
+            android:textColor="@color/text_items_main"
+            android:fontFamily="@font/bigvesta_arabic_regular"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:layout_marginTop="8dp"
+            android:text="@string/desc"
+            android:lineSpacingExtra="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/text_color_items"
+            android:fontFamily="@font/emirates_medium"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:layout_marginTop="8dp"
+            android:text="@string/causes_main"
+            android:textStyle="bold"
+            android:textColor="@color/text_items_main"
+            android:fontFamily="@font/bigvesta_arabic_regular"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_causes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:layout_marginTop="8dp"
+            android:text="@string/causes"
+            android:lineSpacingExtra="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/text_color_items"
+            android:fontFamily="@font/emirates_medium"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:layout_marginTop="8dp"
+            android:text="@string/symptoms_main"
+            android:textStyle="bold"
+            android:textColor="@color/text_items_main"
+            android:fontFamily="@font/bigvesta_arabic_regular"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/tv_symptoms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:layout_marginTop="8dp"
+            android:text="@string/symptoms"
+            android:lineSpacingExtra="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/text_color_items"
+            android:fontFamily="@font/emirates_medium"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:layout_marginTop="8dp"
+            android:text="@string/diagnosis_main"
+            android:textStyle="bold"
+            android:textColor="@color/text_items_main"
+            android:fontFamily="@font/bigvesta_arabic_regular"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/tv_diagnosis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:layout_marginTop="8dp"
+            android:text="@string/diagnosis"
+            android:lineSpacingExtra="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/text_color_items"
+            android:fontFamily="@font/emirates_medium"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:layout_marginTop="8dp"
+            android:text="@string/therapy_main"
+            android:textStyle="bold"
+            android:textColor="@color/text_items_main"
+            android:fontFamily="@font/bigvesta_arabic_regular"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_therapy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:layout_marginTop="8dp"
+            android:text="@string/therapy"
+            android:lineSpacingExtra="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/text_color_items"
+            android:fontFamily="@font/emirates_medium"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/tv_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</ScrollView>

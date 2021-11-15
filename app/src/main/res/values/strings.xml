@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">امل</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="children">أطفال</string>
+    <string name="men">رجال</string>
+    <string name="women">نساء</string>
+    <string name="name_cancer">اسم المرض</string>
+    <string name="description">الوصف</string>
+    <string name="desc">الوصف</string>
+    <string name="causes_main">اسباب المرض</string>
+    <string name="causes">اسباب المرض</string>
+    <string name="symptoms_main">اعراض المرض</string>
+    <string name="symptoms">اعراض المرض</string>
+    <string name="diagnosis_main">تشخيص المرض</string>
+    <string name="diagnosis">تشخيص المرض</string>
+    <string name="therapy_main">علاج المرض</string>
+    <string name="therapy">علاج المرض</string>
+    <string name="developer_name">جمال الصايح</string>
+    <string name="developer_desc">احد خرجي مباردة مليون مبرمج عربي / تطوير التطبيقات اندرويد ، مبادرة ’مليون مبرمج عربي‘ احدى مبادرات محمد بن راشد آل مكتوم العالمية، وهي المؤسسة الخيرية الهادفة إلى نشر التعليم والمعرفة لتعزيز نهضة العالم العربي.</string>
+    <string name="android_basics_nanodegree_by_google">حاصل على شهادة نانوديجري الشهادة العليا للمبادرة Android Basics Nanodegree by Google</string>
+    <string name="prevention_part">الوقاية</string>
+    <string name="detection_part">الكشف المبكر</string>
+    <string name="good_food_part">اغذية مفيدة</string>
+    <string name="bad_food_part">اغذية ضارة</string>
+    <string name="news_part">اخبار</string>
+    <string name="developer_part">المطور</string>
+    <string name="cancer_type_part">انواع السرطان</string>
+    <string name="title_details">اسم الوقاية</string>
+    <string name="desc_details">وصف الوقاية</string>
+    <string name="cancer_name">اسم المرض</string>
+    <string name="cancer_desc">وصف المرض</string>
+    <string name="cancer_details">التفاصيل</string>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jks.amal">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.jks.amal.Developer"
+            android:exported="false"
+            android:label="المطور"
+            android:parentActivityName="com.jks.amal.MainActivity" />
+        <activity
+            android:name="com.jks.amal.News.NewsWHO"
+            android:exported="false"
+            android:label="اخبار منظمة الصحة العالمية"
+            android:parentActivityName="com.jks.amal.MainActivity" />
+        <activity
+            android:name="com.jks.amal.CancerOthers.BadFood"
+            android:exported="false"
+            android:label="اغذية مضرة"
+            android:parentActivityName="com.jks.amal.MainActivity" />
+        <activity
+            android:name="com.jks.amal.CancerOthers.Detection"
+            android:exported="true"
+            android:label="الكشف المبكر"
+            android:parentActivityName="com.jks.amal.MainActivity" />
+        <activity
+            android:name="com.jks.amal.CancerOthers.GoodFood"
+            android:exported="true"
+            android:label="اغذية مفيدة"
+            android:parentActivityName="com.jks.amal.MainActivity" />
+        <activity
+            android:name="com.jks.amal.CancerOthers.Prevention"
+            android:exported="true"
+            android:label="الوقاية"
+            android:parentActivityName="com.jks.amal.MainActivity" />
+        <activity
+            android:name="com.jks.amal.TypesOfCancers.Details"
+            android:exported="true" />
+        <activity
+            android:name="com.jks.amal.MainActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.jks.amal.Welcome"
+            android:exported="true"
+            android:theme="@style/Theme.Design.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
